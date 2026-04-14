@@ -5,7 +5,7 @@ function createFinalPage(container:HTMLElement){
     container.innerHTML="";
     let main = document.createElement("div");
     main.classList.add("main");
-    let img_path = "../images/illustration-thank-you.svg";
+    let img_path = "./images/illustration-thank-you.svg";
     let content = document.createElement("main") as HTMLDivElement;
     let img_main = document.createElement("img");
     img_main.src = img_path;
@@ -31,7 +31,7 @@ function createFinalPage(container:HTMLElement){
 
 function createMainBlock(){
     let main = document.createElement("main");
-    let img_path = "../images/icon-star.svg";
+    let img_path = "./images/icon-star.svg";
     let star_icon = document.createElement("img");
     let image_wrapper = document.createElement("div");
     let stars_numbers = ["1","2","3","4","5"];

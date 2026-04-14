@@ -27,7 +27,7 @@ function createFinalPage(container) {
 }
 function createMainBlock() {
     let main = document.createElement("main");
-    let img_path = "../images/icon-star.svg";
+    let img_path = "./images/icon-star.svg";
     let star_icon = document.createElement("img");
     let image_wrapper = document.createElement("div");
     let stars_numbers = ["1", "2", "3", "4", "5"];
